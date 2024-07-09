@@ -8,20 +8,6 @@ This project uses computer vision and hand-tracking technology to control the vo
 - **Volume Control**: Uses the Pycaw library to control the system's volume based on the distance between thumb and index finger.
 - **Visual Feedback**: Provides a visual representation of the current volume level on the screen.
 
-## Installation
-
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/yourusername/gesture-volume-control.git
-    cd gesture-volume-control
-    ```
-
-2. **Install the required libraries:**
-
-    ```bash
-    pip install opencv-python mediapipe numpy comtypes pycaw
-    ```
 
 ## Usage
 
@@ -66,15 +52,3 @@ This project uses computer vision and hand-tracking technology to control the vo
 - **Pycaw**: For controlling the system volume.
 - **Comtypes**: For COM interface handling.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Acknowledgements
-
-- Mediapipe by Google for the hand tracking technology.
-- Pycaw for providing an interface to control system volume on Windows.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
