@@ -38,6 +38,7 @@ def draw_volume_bar(image, vol, min_vol, max_vol):
                   (bar_x_start + bar_width, bar_y_start + bar_height), 
                   (255, 255, 255), 3)
     
+ 
     # الشريط المتقدم
     filled_height = int((vol_perc / 100) * bar_height)
     cv2.rectangle(image, (bar_x_start, bar_y_start + (bar_height - filled_height)), 
