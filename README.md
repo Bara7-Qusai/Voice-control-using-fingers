@@ -14,7 +14,7 @@ This project uses computer vision and hand-tracking technology to control the vo
 1. **Run the script:**
 
     ```bash
-    python gesture_volume_control.py
+    python Voice_control_using_fingers.py
     ```
 
 2. **Control the volume:**
@@ -25,7 +25,7 @@ This project uses computer vision and hand-tracking technology to control the vo
 
 ## Files
 
-- `gesture_volume_control.py`: Main script to run the gesture-based volume control.
+- `Voice_control_using_fingers.py`: Main script to run the gesture-based volume control.
 - `README.md`: Project description and instructions.
 
 ## How It Works
